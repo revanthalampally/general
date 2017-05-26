@@ -17,7 +17,6 @@ public class Main {
         System.out.println("Hello World!");
         JSONParser parser = new JSONParser();
         try {
-
             Object obj = parser.parse(new FileReader(INPUT_FILENAME));
             JSONObject jsonObject = (JSONObject) obj;
 

@@ -8,7 +8,6 @@ import org.json.simple.*;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
-
 public class Main {
 
     private static final String OUTPUT_FILENAME = "output.txt";
